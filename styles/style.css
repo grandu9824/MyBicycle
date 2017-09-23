@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body p{
+	color:red;
+}
+ol{color: orange;}
+h1{
+	color:purple;
+	text-shadow:1px 1px 1px black;
+	background: linear-gradient(to bottom, rgba(204,255,0,1), rgba(0,0,255,1));
+	padding:5px;
+	text-align:center;
+	box-shadow: inset 5px 10px 5px #FF0, inset -2px -2px 10px rgba(255,0,0,1);
+	font-size:60px;
+	letter-spacing: 5px;
+	line-height: 2;
+}
+h4{color:orange; border:5px solid red; text-align: center;
+}
+h2,h3{color:blue; border: 5px solid yellow; font-size:30px; text-align: center;}
+li{ text-align:center; border: 5px solid silver}
+.word{font-weight: bold; font-family:"Comic Sans MS", cursive; text-transform:uppercase;}
+.text{text-decoration: line-through;}
+.bg{background-color:blue; border-right:6px solid red;}
+.box{background-image: linear-gradient(to bottom, rgba(0,255,153,1), rgba(255,204,204,1));padding: 3px 3px 3px 10px;}
+html{background-color:#0FF;}
+h5 + p{text-transform:uppercase;}
+h4~p{ border:1px dashed black;}
+li{ background: url("https://cdn4.iconfinder.com/data/icons/international-hexagon-flags/480/hong-kong-asian-country-flag-128.png") 5px center no-repeat;}
+li[date-perf*="inc"]{background-color: #906;}
+li[date-perf*="pro"]{ font-weight: bold;}
+html{ font-size:10px; font-family: 'Anton', sans-serif; border: 10px dashed black; margin: 0 auto;}
+body{background-color:#9F0; width:600px; margin:0 auto; padding: 0 20px 20px 20px; text-align:center; border: 5px solid black;}
+img{ display:block; margin: 0 auto;}
